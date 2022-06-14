@@ -3,7 +3,7 @@ An application to shut down a SONY android TV (KD-49XF7596) in case of external 
 
 It is a Windows tray-only application written in c# which uses the IP Control feature of the TV.
 
-Before you actually start the app, you need to set the IP and the pawwsord fo the IP control in the settings.json
+Before you actually start the app, you need to set the IP and the password fo the IP control in the settings.json
 You also have to enable the IP control on your TV with a PSK password.
 
 
