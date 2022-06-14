@@ -1,0 +1,6 @@
+{    
+	_comment: "logLevel can be NONE, NORMAL, VERBOSE",
+    logLevel: "NONE",
+    ipAddr: "192.168.1.1",
+    authPSK: "your_pwd_here"
+}
