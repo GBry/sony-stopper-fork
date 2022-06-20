@@ -20,7 +20,9 @@ namespace SonyStopper {
         public string authPSK { get; private set; }
 
         public bool init() {
-            string settingsTxt = File.ReadAllText("settings.json");
+            // when auto started the actual path seems to be the c:/windows/system32
+            // so read from the directory of the exe
+            string settingsTxt = File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory + "settings.json");
 
             if (String.IsNullOrEmpty(settingsTxt) == false) {
                 try {

@@ -17,7 +17,7 @@ namespace SonyStopper {
         IPAccess IpAccess = null;
         Settings settings = null;
         const int NOTIFY_TIMEOUT_ms = 2000; // windows usually clmamps the timeout between 10-30s
-        const string VERSION = "1.0.2";
+        const string VERSION = "1.0.3";
      
         /// <summary>
         /// Initializes a new instance of the <see cref="ProcessIcon"/> class.
